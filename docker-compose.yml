@@ -43,7 +43,7 @@ services:
     image: vprocontainers/vprofileweb
     container_name: vproweb
     ports:
-      - "95:80"
+      - "8081:80"
 
 volumes:
    vprodbdata: {}
